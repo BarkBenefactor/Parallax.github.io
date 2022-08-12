@@ -77,7 +77,7 @@
 						strings: strings,
 						loop: true,
 						smartBackspace: false,
-						typeSpeed: 40,
+						typeSpeed: 30,
 						startDelay: 700,
 						backDelay: 3e3
 					});	
@@ -327,7 +327,6 @@
 				var parent	= el.closest('.resumo_fn_testimonials');
 				el.owlCarousel({
 					autoplay: false,
-					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
 					loop: false,
@@ -361,13 +360,13 @@
 				var parent	= el.closest('#portfolio');
 				el.owlCarousel({
 					autoplay: false,
-					smartSpeed: 1000,
+					autoplaySpeed: false,
 					margin: 20,
 					nav: false,
-					loop:false,
+					loop: false,
 					lazyLoad: true,
-					lazyLoadEager: 4,
-					autoWidth:true,
+					lazyLoadEager: 6,
+					autoWidth: true,
 					items: 3,
 					dots: false,
 					responsive: false, 

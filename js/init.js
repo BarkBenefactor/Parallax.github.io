@@ -326,14 +326,14 @@
 				var el 		= $(this);
 				var parent	= el.closest('.resumo_fn_testimonials');
 				el.owlCarousel({
-					autoplay: true,
+					autoplay: false,
 					autoplayTimeout: 7000,
 					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
-					loop: true,
+					loop: false,
 					items: 1,
-					dots: false
+					dots: false,
 				});
 				el.trigger('refresh.owl.carousel');
 				el.on('changed.owl.carousel', function() {
@@ -361,25 +361,18 @@
 				var el 		= $(this);
 				var parent	= el.closest('#portfolio');
 				el.owlCarousel({
-					autoplay: true,
+					autoplay: false,
 					autoplayTimeout: 7000,
 					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
-					loop:true,
+					loop:false,
+					lazyLoad: true,
+					lazyLoadEager: 4,
 					autoWidth:true,
-					items:4,
-					dots: false,
-					responsive : {
-						0 : {
-							autoWidth : false,
-							items: 1
-						},
-						700 : {
-							autoWidth : true,
-							items: 4
-						}
-					}
+					items: 3,
+					dots: true,
+					responsive: false, 
 				});
 				el.trigger('refresh.owl.carousel');
 				el.on('changed.owl.carousel', function() {

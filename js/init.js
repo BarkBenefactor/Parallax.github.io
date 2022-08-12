@@ -327,7 +327,6 @@
 				var parent	= el.closest('.resumo_fn_testimonials');
 				el.owlCarousel({
 					autoplay: false,
-					autoplayTimeout: 7000,
 					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
@@ -362,7 +361,6 @@
 				var parent	= el.closest('#portfolio');
 				el.owlCarousel({
 					autoplay: false,
-					autoplayTimeout: 7000,
 					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
@@ -371,7 +369,7 @@
 					lazyLoadEager: 4,
 					autoWidth:true,
 					items: 3,
-					dots: true,
+					dots: false,
 					responsive: false, 
 				});
 				el.trigger('refresh.owl.carousel');

@@ -327,18 +327,14 @@
 				var parent	= el.closest('.resumo_fn_testimonials');
 				el.owlCarousel({
 					autoplay: false,
-					autoplayTimeout: 7000,
-					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
-					loop: true,
+					loop: false,
 					items: 1,
-					dots: false
+					dots: false,
 				});
 				el.trigger('refresh.owl.carousel');
 				el.on('changed.owl.carousel', function() {
-					el.trigger('stop.owl.autoplay');
-					el.trigger('play.owl.autoplay');
 				});
 				var prev = parent.find('.my__nav .prev');
 				var next = parent.find('.my__nav .next');
@@ -362,12 +358,10 @@
 				var parent	= el.closest('#portfolio');
 				el.owlCarousel({
 					autoplay: false,
-					autoplayTimeout: 7000,
-					smartSpeed: 1000,
 					margin: 20,
 					nav: false,
-					loop:true,
-					autoWidth:true,
+					loop: false,
+					autoWidth: true,
 					items:4,
 					dots: false,
 					responsive : {
@@ -383,8 +377,6 @@
 				});
 				el.trigger('refresh.owl.carousel');
 				el.on('changed.owl.carousel', function() {
-					el.trigger('stop.owl.autoplay');
-					el.trigger('play.owl.autoplay');
 				});
 				var prev = parent.find('.my__nav .prev');
 				var next = parent.find('.my__nav .next');

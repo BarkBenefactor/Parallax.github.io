@@ -220,7 +220,7 @@
 				var phone 		= $("#phone").val();
 				var spanSuccess	= form.find(".success");
 				var success     = spanSuccess.data('success');
-				var emailto     = form.data('email');
+				var emailto     = form.data('parallax@parallax.graphics');
 
 				spanSuccess.empty();
 				if(name === ''|| email === ''|| message === '' || emailto === '' || phone === ''){

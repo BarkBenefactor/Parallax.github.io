@@ -634,6 +634,9 @@ a:focus {
 	letter-spacing: 0;
 	margin-bottom: 57px;
 }
+.resumo_fn_main_title .desc a{
+	color:#1db7ff;
+}
 /*------------------------------------------------------------------*/
 /*	06) About Section
 /*------------------------------------------------------------------*/
@@ -1176,7 +1179,6 @@ a:focus {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1374,6 +1376,9 @@ a:focus {
 	padding: 0;
 	font-size: 16px;
 	margin-bottom: 4px;
+}
+.resumo_fn_service_list .item_right a{
+	color: #1db7ff;
 }
 .resumo_fn_service_list .item_right h3{
 	margin: 0;
@@ -2536,6 +2541,9 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 }
 .resumo_fn_modalbox .fn__desc{
 	margin-bottom: 28px;
+}
+.resumo_fn_modalbox .fn__desc a{
+	color: #1db7ff;
 }
 .resumo_fn_modalbox .fn__desc:last-child{
 	margin-bottom: 0;

@@ -634,9 +634,6 @@ a:focus {
 	letter-spacing: 0;
 	margin-bottom: 57px;
 }
-.resumo_fn_main_title .desc a{
-	color:#1db7ff;
-}
 /*------------------------------------------------------------------*/
 /*	06) About Section
 /*------------------------------------------------------------------*/
@@ -1184,7 +1181,7 @@ a:focus {
 	background-repeat: no-repeat;
 }
 #portfolio .img_holder img{
-	margin-bottom: -24%;
+	margin-bottom: -25%;
 	opacity: 0 !important;
 	max-height: 370px;
 }
@@ -2535,7 +2532,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
     left: 0;
     right: 0;
     bottom: 0;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
